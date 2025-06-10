@@ -4,13 +4,13 @@ import mail_icon from "../../assets/mail-icon.png"
 import phone_icon from "../../assets/phone-icon.png"
 import location_icon from "../../assets/location-icon.png"
 import white_arrow from "../../assets/white-arrow.png"
-import React, {useState} from "react"
+import  {useState} from "react"
 
 
 
 
 export default function Contact() {
-    const [result, setResult] = React.useState("");
+    const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();

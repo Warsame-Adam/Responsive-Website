@@ -6,7 +6,7 @@ import user_2 from "../../assets/user-2.png"
 import user_3 from "../../assets/user-3.png"
 import user_4 from "../../assets/user-4.png"
 
-import React, {useRef} from "react"
+import  {useRef} from "react"
 
 export default function Testimonials() {
 
